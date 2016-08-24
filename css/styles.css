@@ -1,0 +1,338 @@
+    html,
+    body {
+        height: 100%;
+        font-size: 18px;
+        font-family: 'Rubik', sans-serif;
+        text-align: center;
+        color:#5a5a5a;
+    }
+    p {
+        line-height: 1.5
+    }
+    a {
+        transition: all 0.3s ease 0s;
+    }
+    .intro-divider {
+    width: 350px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+    ul, 
+    ol {
+    margin: 0;
+    padding: 0;
+
+    }
+}
+
+/*/ ----- NAV SECTION ----- /*/
+    
+   .navbar-default {
+        background-color: rgba(34, 34, 34, 0.9);
+        border-color: transparent;
+        text-align: left;
+    }
+    .navbar-default .navbar-brand {
+        color: #FFFFFF;
+    }
+    .navbar-default .navbar-brand:hover,
+    .navbar-default .navbar-brand:focus,
+    .navbar-default .navbar-brand:active,
+    .navbar-default .navbar-brand.active {
+        color: #37bfc4;
+    }
+    .navbar-default .navbar-collapse {
+        border-color: rgba(255, 255, 255, 0.1)
+    }
+    .navbar-default .navbar-toggle {
+        background-color: #105878;
+        border-color: #105878;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff
+    }
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background-color: #105878
+    }
+    .navbar-default .nav li a {
+        text-transform: uppercase;
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: #fff
+    }
+    .navbar-default .nav li a:hover,
+    .navbar-default .nav li a:focus {
+        color: #37bfc4;
+        outline: 0
+    }
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 0;
+        color: #fff;
+        background-color: #105878
+    }
+    .navbar-default.navbar-shrink {
+        background-color: rgba(34, 34, 34, 1);
+    }
+    .navbar-default .navbar-nav>.active>a:hover,
+    .navbar-default .navbar-nav>.active>a:focus {
+        color: #fff;
+        background-color: #105878
+    }
+    #tohash .fa-angle-down {
+        display: none;
+    }
+
+    /* sizes down to 768px */
+    
+    @media (min-width: 768px) {
+        .navbar-default {
+            background-color: rgba(34, 34, 34, 0.7);
+            padding: 25px 0;
+            -webkit-transition: padding .3s;
+            -moz-transition: padding .3s;
+            transition: padding .3s;
+            border: 0
+        }
+        .navbar-default .navbar-brand {
+            font-size: 2em;
+            -webkit-transition: all .3s;
+            -moz-transition: all .3s;
+            transition: all .3s
+        }
+        .navbar-default .navbar-nav>.active>a {
+            border-radius: 3px
+        }
+        .navbar-default.navbar-shrink {
+            background-color: rgba(34, 34, 34, 1);
+            padding: 10px 0
+        }
+        .navbar-default.navbar-shrink .navbar-brand {
+            font-size: 1.5em
+        }
+        #tohash .fa-angle-down {
+            position: absolute;
+            left: 50%;
+            bottom: 100px;
+            color: #fff;
+            display: inline-block;
+            width: 24px;
+            margin-left: -12px;
+            font-size: 24px;
+            line-height: 24px;
+            z-index: 999;
+            -webkit-animation: bounce 3000ms infinite;
+            animation: bounce 3000ms infinite;
+        }
+    }
+
+/*/ ----- BANNER ----- /*/
+    
+header {
+        background-image: url(../images/header.jpg);
+        background-repeat: none;
+        background-attachment: scroll;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        text-align: center;
+        color: #fff
+}
+header .intro-text {
+        padding-top: 80px;
+        padding-bottom: 90px
+}
+header .intro-text h1 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 45px;
+        color: #105878;
+        line-height: 1.2em;
+        margin-bottom: 25px;
+}
+header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-size: 16px;
+        line-height: 1.4em;
+        color: #5a5a5a;
+}
+header .subpage-intro-text {
+        padding-top: 140px;
+        padding-bottom: 90px
+}
+header .subpage-intro-text h1 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 45px;
+        color: #105878;
+        line-height: 1.2em;
+        margin-bottom: 25px;
+}
+
+
+    /* sizes down to 768px */
+    
+    @media (min-width: 768px) {
+
+        header .intro-text {
+            padding-top: 260px;
+            padding-bottom: 420px;
+        }
+         header .intro-text h1 {
+            margin-bottom: 25px;
+            font-size: 60px;
+            line-height: 1.3em;
+        }
+        header .intro-text .intro-lead-in {
+            margin-bottom: 25px;
+            font-size: 25px;
+            line-height: 1.5em;
+        }
+       
+    }
+
+
+/*/ ----- MAIN ----- /*/
+    
+    .bg-img {
+        background: url(../images/struckaxiom.png) repeat 0 0;
+    }
+    #intro,
+    #services, 
+    #testimonials,
+    #clients,
+    #about,
+    #services,
+    #contact {
+        padding: 40px 0;
+    }
+    #intro h2,
+    #services h2,
+    #services h3,
+    #testimonials h2,
+    #clients h2,
+    #about h2,
+    #contact h2 {
+        color: #105878;
+    }
+    #intro h2,
+    #services h2,
+    #testimonials h2,
+    #clients h2,
+    #about h2,
+    #contact h2 {
+        margin: 0 0 20px 0;
+        font-size: 35px;
+        line-height: 0.5em;
+    }
+    #intro p,
+    #services p, 
+    #testimonials p,
+    #clients p {
+        font-size: 16px;
+    }
+    #services ul {
+        padding-left: 0;
+        list-style-type: none;
+    }
+    .service-icon {
+        width: 100px;
+        height: 100px;
+        margin: 10px 0 0 0;
+    }
+    #testimonials footer {
+        padding: 20px 0;
+        background-color: #fff;
+
+    }
+    #google-map {
+        height: 350px;
+    }
+
+    /* sizes down to 768px */
+
+    @media (min-width: 768px) {
+    #intro,
+    #services, 
+    #testimonials,
+    #clients {
+        padding: 100px 0;
+    } 
+    #intro h2,
+    #services h2,
+    #testimonials h2,
+    #clients h2 {
+        font-size: 40px;
+        line-height: 0.5em;
+    } 
+    #intro p,
+    #services p, 
+    #testimonials p,
+    #clients p {
+        font-size: 18px;
+    }
+    }
+    
+    ul.client-brands li {
+        display: inline-block;
+        list-style-type: none;
+    }
+    ul.client-brands li img {
+    width: 80%;
+    }
+
+
+    }
+
+/*/ ----- FOOTER ----- /*/
+    
+    .social-buttons {
+        margin-bottom: 20px;
+    }
+    ul.social-buttons li a {
+        border-radius: 100%;
+        border: 1px solid #fff;
+        color: #fff;
+        display: block;
+        font-size: 20px;
+        height: 40px;
+        line-height: 40px;
+        outline: 0 none;
+        transition: all 0.3s ease 0s;
+        width: 40px;
+        text-align: center;
+    }
+    ul.social-buttons li a:active,
+    ul.social-buttons li a:focus,
+    ul.social-buttons li a:hover {
+        color: #37bfc4;
+    }
+    footer {
+        padding: 60px 0 100px 0;
+        color: #fff;
+        background-color: #3a3a3a;
+        font-size: 16px;
+        text-align: left;
+    }
+    footer h3 {
+        margin-top: 25px;
+        padding-top: 0;
+    }
+    footer ul {
+        margin: 0;
+        padding: 0;
+    }
+    footer ul li {
+        list-style-type: none;
+    }
+
+    /* sizes down to 768px */
+
+    @media (min-width: 768px) {
+    
+        footer h3 {
+            margin-top: 0;
+        }    
+    }
