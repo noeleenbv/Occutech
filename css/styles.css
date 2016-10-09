@@ -9,7 +9,8 @@
     p {
         line-height: 1.5
     }
-    a {
+    a,
+    .btn {
         transition: all 0.3s ease 0s;
     }
     .intro-divider {
@@ -226,6 +227,18 @@ header .subpage-intro-text h1 {
         margin: 0 0 20px 0;
         font-size: 35px;
         line-height: 0.5em;
+    }
+    #contact p,
+    #contact li {
+        text-align: left;
+        list-style: none;
+    }
+
+    #contact ul.phones {
+        margin: 20px 0;
+    }
+    form {
+        text-align: left;
     }
     #intro p,
     #services p, 
